@@ -22,14 +22,13 @@ struct aspirador {
   int orientation;
 };
 
-void mostrarAmbiente(int **ambiente, int largura, int profundidade);
 void invalidMove();
 
 int main(int argc, char *argv[]) {
 
   if (argc != 4) {
     printf("Numero de argumentos incorreto. Utilize: \n");
-    printf("<./app X Y Z> Sendo Z a largura da sala, Y a profundidade e Z a sequência de movimentos do robô (F, T, E, D).\n");
+    printf("<./app X Y Z> Sendo X a largura da sala, Y o comprimento e Z a sequência de movimentos do robô (F, T, E, D).\n");
     exit(1);
   }
 
