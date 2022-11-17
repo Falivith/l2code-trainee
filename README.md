@@ -11,7 +11,7 @@ Q1)
 3) ./main "largura" "comprimento" "sequência de movimentos" 
 Exemplo: ./main 50 50 FFFFFFDEDTTFFFFFFFF
 
-Q2)
+Q3)
 
 1) Basta rodar o Script SQL no mySQL Workbench por exemplo, o banco será criado e serão feitas as duas consultas pedidas.
 2) No código SQL existem alguns comentários sobre a estratégia de consulta utilizada
