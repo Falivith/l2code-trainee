@@ -1,0 +1,21 @@
+.wrapper {
+    margin-top: 100px;
+    margin-left: -9rem;
+    display: flex;
+    overflow: hidden;
+    flex: 1;
+}
+
+.span {
+    font-family: 'Sora';
+    font-style: normal;
+    color: white;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 45px;
+    letter-spacing: 0.2px;
+}
+
+.auctions {
+    text-align: center;
+}

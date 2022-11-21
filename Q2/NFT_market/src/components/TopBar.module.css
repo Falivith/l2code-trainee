@@ -1,0 +1,49 @@
+.topBar {
+    margin: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.middleAnchors {
+    display: flex;
+    gap: 4rem;
+    margin-left: 12.5rem;
+}
+
+.endAnchors {
+    display: flex;
+    gap: 1.5rem;
+}
+
+a {
+    color: var(--gray-300);
+    text-decoration: none;
+    font-weight: 590;
+    font-size: 1rem;
+}
+
+.contact {
+    width: 100%;
+    background: transparent;
+    padding: 16px 24px;
+    border-radius: 12px;
+    border: 2px solid var(--gray-300);
+    
+    gap: 0.75rem;
+
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.myAccount {
+    white-space: nowrap;
+    color: var(--white);
+    padding: 16px 24px;
+    border-radius: 12px;
+    background: linear-gradient(104.42deg, #4745D0 0%, #2A27C9 60.23%);
+    box-shadow: inset -4px -4px 4px rgba(0, 0, 0, 0.1), inset 4px 4px 4px rgba(255, 255, 255, 0.1);
+}
+
+.myAccount:hover {
+    background: linear-gradient(104.42deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 60.23%), linear-gradient(104.42deg, #4745D0 0%, #2A27C9 60.23%);
+}

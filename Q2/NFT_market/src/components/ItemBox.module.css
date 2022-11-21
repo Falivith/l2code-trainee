@@ -1,0 +1,74 @@
+.wrapper {
+    border-radius: 20px;
+    padding: 1.5rem;
+    height: 600px;
+    width: 24rem;
+    border: 2px solid var(--gray-600);
+    margin: 10px;
+}
+
+.banner {
+    width: 20rem;
+    height: 26rem;
+    border-radius: 20px;
+    object-fit: cover; 
+}
+
+.titleAndEth {
+    display: flex;
+}
+
+.ethValue {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    height: min-content;
+    white-space: nowrap;
+    color: var(--blue-600);
+    padding: 8px 14px;
+    background: rgba(81, 76, 255, 0.15);
+    border-radius: 4px;
+}
+
+.description {
+    text-align: left;
+    margin-top: 1.5rem;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.boxTitle {
+    width: 80%;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    white-space: initial;
+}
+
+.clockTimeEth {
+    margin-top: 1.5rem;
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-self: end;
+}
+
+.clockAndTime {
+    display: flex;
+    align-content: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.3rem;
+    border-top: 1px solid var(--gray-600);
+    padding-top: 1.3rem;
+}
