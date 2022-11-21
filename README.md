@@ -11,6 +11,12 @@ Q1)
 3) ./main "largura" "comprimento" "sequência de movimentos" 
 Exemplo: ./main 50 50 FFFFFFDEDTTFFFFFFFF
 
+Q2) Desenvolvido em React, usando Vite. Tendo o node instalado, basta clonar o repositório, entrar no diretório NFT_market e rodar os seguintes comandos:
+1) npm i
+2) npm run dev
+
+Como estou aprendendo react no momento, não consegui completar a tempo. Me enrolei na parte de fazer a barra com scroll horizontal, entretanto, o aprendizado foi muito grande. 
+
 Q3)
 
 1) Basta rodar o Script SQL no mySQL Workbench por exemplo, o banco será criado e serão feitas as duas consultas pedidas.
